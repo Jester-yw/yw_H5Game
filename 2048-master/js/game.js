@@ -58,7 +58,7 @@ document.addEventListener('touchend',function (event) {
     endy = event.changedTouches[0].pageY;
     var left = $(".game-container").offset().left;//game-container块的坐标
     var top = $(".game-container").offset().top;
-    event.preventDefault();
+    //event.preventDefault();
     if (startx>left && startx<left+cellSize*4+cellSpace*5 && starty>top && starty<top+cellSize*4+cellSpace*5) {//起始滑动位置在game-container中
         if (Math.abs(endx - startx) > 30 || Math.abs(endy - starty) > 30) {
             if (Math.abs(endx - startx) > Math.abs(endy - starty)) {
