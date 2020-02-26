@@ -101,26 +101,26 @@ context.strokeStyle = "#BFBFBF";
 var logo = new Image();
 logo.src = "img/logo.jpg";
 logo.onload = function(){
-	context.drawImage(logo , 0 , 0 , 450 , 450);
+	context.drawImage(logo , 0 , 0 , 590 , 590);
 	drawChessBoard();
 }
 
 var drawChessBoard = function(){
 	for(var i = 0 ; i < 15 ; i++){
-		context.moveTo(15 + i * 30 , 15);
-		context.lineTo(15 + i * 30 , 435) ;
+		context.moveTo(15 + i * 40 , 15);
+		context.lineTo(15 + i * 40 , 575) ;
 		context.stroke();
-		context.moveTo(15 , 15 + i * 30);
-		context.lineTo(435 , 15 + i * 30);
+		context.moveTo(15 , 15 + i * 40);
+		context.lineTo(575 , 15 + i * 40);
 		context.stroke();
 	}
 }
 
 var oneStep = function(i , j, me){
 	context.beginPath();
-	context.arc(15 + i*30,15 + j*30,13,0 ,2 * Math.PI);
+	context.arc(15 + i*40,15 + j*40,13,0 ,2 * Math.PI);
 	context.closePath();
-	var gradient = context.createRadialGradient(15 + i*30 + 2,15 + j*30 - 2,13,15 + i*30 + 2,15 + j*30 - 2,0);
+	var gradient = context.createRadialGradient(15 + i*40 + 2,15 + j*40 - 2,13,15 + i*40 + 2,15 + j*40 - 2,0);
 	if(me){
 		gradient.addColorStop(0,"#0A0A0A");
 		gradient.addColorStop(1,"#636766");
@@ -140,8 +140,8 @@ chess.onclick = function(e){
 		return ;
 	var x = e.offsetX ; 
 	var y = e.offsetY ;
-	var i = Math.floor(x/30);
-	var j = Math.floor(y/30);
+	var i = Math.floor(x/40);
+	var j = Math.floor(y/40);
 	if(chessBoard[i][j] == 0)
 	{
 		oneStep(i,j,me);
