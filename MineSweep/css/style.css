@@ -41,7 +41,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #ffebc5;
+  color: #776e65;
+  background-color: #faf8ef;
 }
 
 .btn {
