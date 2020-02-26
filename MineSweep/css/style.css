@@ -46,6 +46,9 @@ body {
 
 .btn {
   background: #c9c9c9;
+  display: block;
+  margin: 20px auto;
+  width: 120px;
   padding: .5rem 1rem;
   text-decoration: none;
   color: #969696;
@@ -74,6 +77,9 @@ body {
 
 .btn2 {
   background: #c9c9c9;
+  display: block;
+  margin: 20px auto;
+  width: 120px;
   padding: .5rem 1rem;
   text-decoration: none;
   color: #969696;
