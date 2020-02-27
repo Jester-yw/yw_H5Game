@@ -93,6 +93,11 @@ body{
 }
 .endscreen.show {
   display: block;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .endscreen span {
   color: #2ecc71;
