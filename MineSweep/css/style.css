@@ -21,19 +21,6 @@ html {
   height: 100%;
 }
 
-header{
-  display: block;
-  margin: 0 auto;
-  width:500px;
-  text-align:center;
-}
-
-header h1{
-  font-family: Arial;
-  font-size: 60px;
-  font-weight: bold;
-}
-
 body {
   width: 100%;
   min-height: 100%;
@@ -45,66 +32,56 @@ body {
   background-color: #faf8ef;
 }
 
-.btn {
-  background: #c9c9c9;
-  display: block;
-  margin: 20px auto;
-  width: 120px;
-  padding: 10px;
-  text-decoration: none;
-  color: #969696;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  transition: background .2s ease, -webkit-transform .2s ease;
-  transition: background .2s ease, transform .2s ease;
-  transition: background .2s ease, transform .2s ease, -webkit-transform .2s ease;
-  box-shadow: inset 0 2px 0 #e7e7e7, inset 0 -2px 0 #bcbcbc, inset 2px 0 0 #e7e7e7, inset -2px 0 0 #bcbcbc;
-  text-shadow: 0 1px 0 #efefef, 0 -1px 0 #7c7c7c;
-}
-.btn:hover {
-  background: #d5d5d5;
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
-}
-.btn:active {
-  background: #bcbcbc;
-  -webkit-transform: translateY(1px);
-          transform: translateY(1px);
+.heading{
+  padding: 0px;
 }
 
-.btn2 {
-  background: #c9c9c9;
+.title{
+  font-weight: bold;
+  display: inline-block;
+  font-size: 72px;
+  margin: 0px;
+}
+
+.game-intro{
+  margin: 0px auto;
+  padding-top: 20px;
+  width:250px;
+  text-align:center;
+}
+
+#newgamebutton{
   display: block;
-  margin: 20px auto;
-  width: 120px;
+  float: left;
+  width: 100px;
   padding: 10px;
+  background-color: #8f7a66;
+  text-align:center;
+  font-family: Arial;
+  color: white;
+  border-radius: 10px;
   text-decoration: none;
-  color: #969696;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  transition: background .2s ease, -webkit-transform .2s ease;
-  transition: background .2s ease, transform .2s ease;
-  transition: background .2s ease, transform .2s ease, -webkit-transform .2s ease;
-  box-shadow: inset 0 2px 0 #e7e7e7, inset 0 -2px 0 #bcbcbc, inset 2px 0 0 #e7e7e7, inset -2px 0 0 #bcbcbc;
-  text-shadow: 0 1px 0 #efefef, 0 -1px 0 #7c7c7c;
 }
-.btn2:hover {
-  background: #d5d5d5;
-  -webkit-transform: translateY(-1px);
-  transform: translateY(-1px);
+
+#newgamebutton:hover{
+  background-color: #9f8b77
 }
-.btn2:active {
-  background: #bcbcbc;
-  -webkit-transform: translateY(1px);
-  transform: translateY(1px);
+
+#upgamebutton{
+  display: block;
+  float: right;
+  width: 100px;
+  padding: 10px;
+  background-color: #8f7a66;
+  text-align:center;
+  font-family: Arial;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#upgamebutton:hover{
+  background-color: #9f8b77
 }
 
 .endscreen {
@@ -134,7 +111,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   border: 10px solid #d5d5d5;
   box-sizing: content-box;
