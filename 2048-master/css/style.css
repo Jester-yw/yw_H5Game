@@ -32,8 +32,16 @@ body{
     padding: 0px;
 }
 
+.game-intro{
+    margin: 0 auto;
+    width:250px;
+    height: 60px;
+    text-align:center;
+}
+
 #newgamebutton{
     display: block;
+    float: left;
     margin: 20px auto;
 
     width: 100px;
@@ -53,6 +61,7 @@ body{
 
 #nextgamebutton{
     display: block;
+    float: right;
     margin: 20px auto;
 
     width: 100px;
