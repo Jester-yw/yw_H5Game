@@ -21,19 +21,17 @@ html {
   height: 100%;
 }
 
-body {
-  width: 100%;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+body{
   color: #776e65;
   background-color: #faf8ef;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 .heading{
   padding: 0px;
+  text-align: center;
 }
 
 .title{
@@ -44,7 +42,7 @@ body {
 }
 
 .game-intro{
-  margin: 0px auto;
+  margin: 0px auto 60px;
   padding-top: 20px;
   width:250px;
   text-align:center;
@@ -111,8 +109,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem auto;
   border: 10px solid #d5d5d5;
   box-sizing: content-box;
   box-shadow: 0 6px 0 #bcbcbc, 0 -6px 0 #e7e7e7, 6px 0 0 #bcbcbc, -6px 0 0 #e7e7e7;
