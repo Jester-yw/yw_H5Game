@@ -6,34 +6,75 @@ body{
 	height: 100vh;
 }
 
-header{
-	display: block;
-	margin: 0 auto;
-	width:500px;
-	text-align:center;
+.heading{
+	padding: 0px;
+	text-align: center;
 }
 
-header h1{
-	font-family: Arial;
-	font-size: 60px;
+.title{
 	font-weight: bold;
+	display: inline-block;
+	font-size: 72px;
+	margin: 0px;
 }
 
-header .button{
-	display: block;
-	margin: 20px auto;
+.game-intro{
+	margin: 0px auto 60px;
+	padding-top: 20px;
+	width:400px;
+	text-align:center;
+	font-size: small;
+}
 
+#newgamebutton{
+	display: block;
+	float: right;
+	margin: 0 20px;
 	width: 100px;
 	padding: 10px;
 	background-color: #8f7a66;
-
+	text-align:center;
 	font-family: Arial;
 	color: white;
 	border-radius: 10px;
 	text-decoration: none;
 }
 
-header .button:hover{
+#newgamebutton:hover{
+	background-color: #9f8b77
+}
+
+#nextgamebutton{
+	display: block;
+	float: right;
+	width: 100px;
+	padding: 10px;
+	background-color: #8f7a66;
+	text-align:center;
+	font-family: Arial;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+#nextgamebutton:hover{
+	background-color: #9f8b77
+}
+
+#upgamebutton{
+	display: block;
+	float: right;
+	width: 100px;
+	padding: 10px;
+	background-color: #8f7a66;
+	text-align:center;
+	font-family: Arial;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+#upgamebutton:hover{
 	background-color: #9f8b77
 }
 
