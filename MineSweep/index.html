@@ -3,23 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <title>MineSweep Game</title>
-
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<header>
-    <h1 class="hn">扫雷</h1>
-    <a href="../Gobang/index.html" class="btn2">上一关</a>
-    <a href="#" class="btn">重新开始</a>
-</header>
+<div class="heading">
+    <h1 class="title">扫雷</h1>
+</div>
+<div class="game-intro">
+    <a href="javascript:location.reload();" id="newgamebutton" >重新开始</a>
+    <a href="../Gobang/index.html" id="upgamebutton">上一关</a>
+</div>
 
 <div class="board"></div>
 
-
-
 <div class="endscreen"></div>
-
 
 <script src="js/script.js"></script>
 
