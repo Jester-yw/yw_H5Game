@@ -1,3 +1,7 @@
+*{
+	font-family: 'VT323', monospace;
+}
+
 body{
 	color: #776e65;
 	background-color: #faf8ef;
