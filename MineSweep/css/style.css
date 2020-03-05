@@ -42,17 +42,17 @@ body{
 }
 
 .game-intro{
-  margin: 0px auto 80px;
+  margin: 0px auto 100px;
   padding-top: 20px;
-  width:250px;
+  width:500px;
   text-align:center;
-  font-size: small;
+  font-size: xx-large;
 }
 
 #newgamebutton{
   display: block;
   float: left;
-  width: 100px;
+  width: 200px;
   padding: 10px;
   background-color: #8f7a66;
   text-align:center;
@@ -69,7 +69,7 @@ body{
 #upgamebutton{
   display: block;
   float: right;
-  width: 100px;
+  width: 200px;
   padding: 10px;
   background-color: #8f7a66;
   text-align:center;
