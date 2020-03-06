@@ -217,6 +217,7 @@ const checkVictory = () => {
 	if (win) {
 		endscreen.innerHTML = endscreenContent.win;
 		endscreen.classList.add('show');
+		document.getElementById('score').innerText = '100';
 		gameOver = true;
 	}
 }
