@@ -1,18 +1,3 @@
-//固定页面
-document.onreadystatechange = function () {
-    alert("welcome1");
-    if (document.readyState == "complete") {
-        document.body.style.display = "block";
-        } else {
-            document.body.style.display = "none";
-        }
-};
-
-document.body.addEventListener('touchmove' , function(e){
-    alert("welcome2");
-    e.preventDefault();
-});
-
 //游戏主要逻辑
 var board = [];
 var score = 0;
