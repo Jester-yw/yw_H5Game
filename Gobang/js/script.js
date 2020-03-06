@@ -151,7 +151,8 @@ chess.onclick = function(e){
 				myWin[k]++ ;
 				computerWin[k] = 6;  // 表示计算机在第k种赢法种类上不可能赢
 				if(myWin[k] == 5){
-					window.alert("你赢了");
+					document.getElementById('score').innerText = '100';
+// 					window.alert("你赢了");
 					over = true ;
 				}
 			}
@@ -266,7 +267,7 @@ var computerAI = function()
 			computerWin[k]++ ;
 			myWin[k] = 6;  // 表示计算机在第k种赢法种类上不可能赢
 			if(computerWin[k] == 5){
-				window.alert("计算机赢了");
+// 				window.alert("计算机赢了");
 				over = true ;
 			}
 		}
