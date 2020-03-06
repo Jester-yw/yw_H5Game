@@ -30,8 +30,41 @@ body{
 }
 
 .heading{
+  margin: 0 auto 20px;
   padding: 0px;
+  display: block;
+  width: 600px;
   text-align: center;
+}
+
+.scores-container{
+  float: right;
+  position: relative;
+  display: inline-block;
+  background: #bbada0;
+  font-size: xx-large;
+  height: 55px;
+  line-height: 47px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 30px;
+  margin-top: 10px;
+}
+
+.scores-container:after{
+  position: absolute;
+  width: 100%;
+  bottom: 17px;
+  left: 0px;
+  text-align: center;
+  font-size: large;
+  color: #eee4da;
+}
+
+#score:after{
+  content:"SCORE";
 }
 
 .title{
