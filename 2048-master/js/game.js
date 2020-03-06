@@ -6,6 +6,11 @@ document.onreadystatechange = function () {
             document.body.style.display = "none";
         }
 };
+
+document.body.addEventListener('touchmove' , function(e){
+    e.preventDefault();
+});
+
 //游戏主要逻辑
 var board = [];
 var score = 0;
