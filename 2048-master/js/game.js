@@ -1,5 +1,6 @@
 //固定页面
 document.onreadystatechange = function () {
+    alert("welcome1");
     if (document.readyState == "complete") {
         document.body.style.display = "block";
         } else {
@@ -8,6 +9,7 @@ document.onreadystatechange = function () {
 };
 
 document.body.addEventListener('touchmove' , function(e){
+    alert("welcome2");
     e.preventDefault();
 });
 
