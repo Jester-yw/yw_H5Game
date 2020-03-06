@@ -1,3 +1,11 @@
+//固定页面
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+        document.body.style.display = "block";
+        } else {
+            document.body.style.display = "none";
+        }
+};
 //游戏主要逻辑
 var board = [];
 var score = 0;
