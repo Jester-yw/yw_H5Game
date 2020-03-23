@@ -73,6 +73,7 @@ body{
   display: inline-block;
   font-size: 72px;
   margin: 0px;
+  cursor: pointer;
 }
 
 .game-intro{
